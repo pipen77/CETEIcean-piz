@@ -1,16 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Slab:wght@600&family=Titillium+Web:wght@600&display=swap');
+
+
+
 body {
   font-size: 12pt;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
 }
 
 tei-body {
-  
+  font-size: 12pt;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
 }
 
 tei-head {
-  display: block;
+  font-size: 12pt;
+  max-width: 900px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  margin: auto;
+  padding: 60px;
+  margin-bottom: 10px;
+  text-align: center;
 }
+
+tei-head tei-persname {
+  font-variant: normal;
+  
+  }
 
 tei-p {
   display: block;
+  
 }
 
+tei-div {
+  display: block;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: dotted;
+  margi
+  margin-bottom: 10px;
+}
+
+tei-div[type="manuscrito"]{
+    font-family:'Roboto Slab', serif;;
+}
+
+tei-div[type="impreso"]{
+  font-size: 80%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+tei-signed {
+  font-size: 110%;
+  color:brown;
+  font-family: 'Dancing Script', cursive;;
+}
+
+
+tei-persname {
+font-variant: small-caps;
+
+}
+
+tei-foreign {
+  text-decoration: underline;
+}
+
+tei-abbr {
+  display: none;
+}
+
+tei-corr{
+  color: green;
+  font-weight: bold;
+}
+
+tei-del {
+  color: red;
+}
+
+tei-add {
+  color: blue;
+  font-weight: bold;
+}
+
+tei-gap {
+  background-color: black;
+  
+}
+
+tei-gap::before {
+  content: " ";
+  white-space: pre;
+}
+
+tei-lb::before {
+  white-space: pre;
+  content: "\A";
+}
