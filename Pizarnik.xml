@@ -48,6 +48,8 @@
           <lb/>vida <foreign xml:lang="fra">est à l'auteur de la morte</foreign>.
         </p>
         
+        <lb/>
+        <lb/>
         <closer>
           Muy tuya<corr>,</corr>
           <signed><persName>Alejandra</persName></signed>
@@ -70,7 +72,7 @@
       
       <div type="manuscrito" n="3">
         <p>
-          <lb/><choice><abbr>P.S.</abbr><expan>Posdata</expan></choice> — En el hospital aprendo 
+          <lb/><choice><abbr>P.S.</abbr> <expan>Posdata</expan></choice> — En el hospital aprendo 
           <lb/>a convivir con los últimos desechos. 
           <lb/>Mi mejor amiga es una sirvienta 
           <lb/>de <num value="18">18</num> años que mató a su hijo. Empecé 
@@ -83,10 +85,10 @@
       
       <div type="manuscrito" n="4">
         <p>
-          <lb/><choice><abbr>P.S.</abbr><expan>Posdata</expan></choice>
+          <lb/><choice><abbr>P.S.</abbr> <expan>Posdata</expan></choice>
           <lb/>Me excedí, supongo. Y he 
           <lb/>perdido, viejo amigo de tu vieja 
-          <lb/><persName>Alejandra</persName> que <subst><del rend="tachado">tuvo</del><add>tiene</add></subst> miedo de 
+          <lb/><persName>Alejandra</persName> que <subst><del rend="tachado">tuvo</del> <add>tiene</add></subst> miedo de 
           <lb/>todo salvo <corr>(</corr>¡ahora, oh <persName>Julio</persName>!) de la
           <lb/>locura y de la muerte. (Hace dos meses 
           <lb/>que estoy en el hospital. Excesos y luego 

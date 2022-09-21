@@ -1,0 +1,177 @@
+@import url(https://fonts.bunny.net/css?family=anek-odia:200,400,700|kalam:300,400,700);
+
+body {
+    
+  background-color: #EDF2F4;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+tei-body {
+  font-family: 'Anek Odia', sans-serif;
+  font-size: small;
+}
+
+tei-body::before {
+  white-space: pre;
+
+}
+
+tei-head {
+  display: block;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #EDF2F4;
+  background-color: #D90429;
+  padding: 20px;
+  border-radius: 5px;
+  
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+
+
+tei-head tei-persname {
+  font-family: 'Kalam', handwriting;
+  
+  font-weight: 700;
+    color: #EDF2F4;
+    
+
+  }
+
+  tei-head tei-date {
+  font-style: italic;
+  }
+
+
+
+tei-p {
+  
+}
+
+tei-div {
+    font-weight: 300;
+  display: block;
+  background-color: #EDF2F4;
+  color: #66768F;
+  border: #D90429;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: small;
+  
+}
+
+tei-closer{
+  font-style: italic;
+  font-weight: 400;
+  
+}
+
+
+tei-div[type="manuscrito"]{
+  font-family: 'Kalam', handwriting;
+  font-size: larger;
+}
+
+
+tei-div tei-persname [type="manuscrito"]{
+  font-family: 'Kalam', handwriting;
+  font-size: larger;
+}
+
+tei-div[type="impreso"]{
+  font-weight: 300;
+  font-size: large;
+}
+
+tei-signed {
+  font-size: x-large;
+}
+
+
+tei-persname {
+  color: #2B2D42;
+  font-weight: 700;
+  
+
+}
+
+tei-foreign {
+  font-weight: 400;
+  color: #2B2D42;
+
+}
+
+tei-abbr {
+  display: inline;
+  font-weight: 400;
+
+}
+
+tei-expan {
+  color: #D90429;
+  text-decoration:dot;
+}
+
+
+tei-expan::after {
+  content: ")";
+}
+
+tei-expan::before {
+  white-space: pre;
+  content: "(";
+}
+
+
+tei-corr{
+  font-weight: 400;
+  color: #2B2D42;
+
+}
+
+tei-del {
+  display: inline;
+text-decoration: line-through;
+font-weight: 400;
+  
+}
+
+tei-del::before {
+  white-space: pre;
+}
+
+tei-add {
+font-style: italic;
+font-weight: 400;
+font-size: medium;
+}
+
+tei-gap {
+    display:inline;
+  
+}
+
+tei-gap::before {
+white-space: pre;
+content: "   ";
+}
+
+tei-lb::before {
+  white-space: pre;
+  content: "\A";
+  
+}
